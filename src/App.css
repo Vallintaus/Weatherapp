@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  width: 700px;
+  border-radius: 20px;
+  background-color: #e1ddd2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  width: 35px;
+  height: 35px;
+  color: #555a54;
+}
+
+.top {
+  width: 100%;
+  height: 60px;
+  background-color: #b6b0a2;
+  color: #555a54;
+  padding: 10px;
+  border-radius: 20px 20px 0 0;
+  font-family: "Recursive", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: #b6b0a2;
+  color: #555a54;
+  margin: 0;
+  font-size: 25px;
+  border-radius: 20px 20px 0 0;
+  font-family: "Recursive", sans-serif;
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.day {
+  padding: 15px;
+  color: #555a54;
+  font-family: "Recursive", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.temp {
+  padding: 15px;
+  color: #555a54;
+  font-family: "Recursive", sans-serif;
+  font-size: 18px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sunrise-sunset {
+  padding: 15px;
+  color: #555a54;
+  font-family: "Recursive", sans-serif;
+  font-size: 16px;
+}
+
+.description {
+  padding: 15px;
+  color: #555a54;
+  font-family: "Recursive", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
